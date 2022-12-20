@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Vlady Desarrollador Web</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Vhc</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Vladimir Huanca Cruz</span>, Desarrollador Web</h2>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+
+        <div class="sobremi">
+            <p class="titulo-seccion"><strong>SOBRE MI</strong></p>
+            <h2>Hola, Soy <span>Vladimir Huanca Cruz</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>Soy un desarrollador web con experiencia en el diseño y la creación de sitios y aplicaciones web. 
+                He trabajado en proyectos que utlizan frameworks como Laravel y Vue.js; también tengo conocimiento en base de datos, me 
+                aseguro de probar y depurar el código para garantizar la calidad y rendimineto de los proyectos.
+                Estoy constantemente aprendiendo y actualizándome en las últimas tendencias y tecnologías en el campo del desarrollo web.</p>
+      
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">65%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">75%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Vue.js</p>
+                <span class="porcentaje">60%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="vue"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>My Sql</p>
+                <span class="porcentaje">70%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Php</p>
+                <span class="porcentaje">60%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Laravel</p>
+                <span class="porcentaje">60%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="lara"></div>
+            </div>
+        </div>
+      
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://github.com/vlady93/web-cot.git"><img src="img/siscot.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Sistema de Liquidaciones</h4>
+                    <p>Sistema Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="https://github.com/vlady93/sistemaweb.git"><img src="img/gedekaimg.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Sistema de control de Proyectos de gas</h4>
+                    <p>Sistema Web</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <a href="http://"><img src="img/mango.jpg" alt=""></a>
+                <div class="info">
+                    <h4>Sistema para comercializar muebles</h4>
+                    <p>Sistema Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/aria.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+           
+            
+        </div>
+        
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="https://formsubmit.co/vlady3000hc@gmail.com" method="POST">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" name="name" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" name="email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
