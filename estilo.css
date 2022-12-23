@@ -175,10 +175,10 @@
         }
         
         #sobremi .sobremi h3 {
-            font-size: 18px;
+            font-size: 12px;
             font-weight: 500;
             text-transform: uppercase;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             letter-spacing: 1px;
         }
         
@@ -576,3 +576,5 @@
                 margin-bottom: 15px;
             }
         }
+        .modal-lg { max-width: 80% !important; }
+
